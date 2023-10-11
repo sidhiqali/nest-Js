@@ -9,6 +9,6 @@ import { ConfigModule } from '@nestjs/config';
 @Module({
   imports: [ConfigModule.forRoot({
     isGlobal: true
-  }), UserModule, AuthModule, BookmarksModule, PrismaModule],
+  }), UserModule, AuthModule, BookmarksModule, PrismaModule,],
 })
 export class AppModule { }
